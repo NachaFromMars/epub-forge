@@ -1,0 +1,22 @@
+metadata:
+  title: "EPUB Forge Test Book"
+  author: "Tiểu Tâm"
+  language: "vi"
+  publisher: "OpenClaw Press"
+  description: "A test book to verify epub-forge skill"
+  date: "2026-03-19"
+
+cover: "images/cover.png"
+
+chapters:
+  - title: "Chương 1: Khởi Đầu"
+    file: "chapters/ch01.md"
+  - title: "Chương 2: Hành Trình"
+    file: "chapters/ch02.md"
+  - title: "Chương 3: Kết Thúc"
+    file: "chapters/ch03.md"
+
+options:
+  ncx: true
+  accessibility: true
+  validate: true
